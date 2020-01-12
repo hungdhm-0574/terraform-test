@@ -20,7 +20,7 @@ resource "aws_instance" "ec2_test" {
   instance_type = "${var.instance_type}"
   key_name      = "${aws_key_pair.keypair_test.key_name}"
 
-  vpc_security_group_ids = ["${aws_security_group.sg_test.id}"]
+  vpc_security_group_ids = ["${aws_security_group.ec2_sg_test.id}"]
   subnet_id              = "${var.subnet_id_test[0]}"
 
   root_block_device {

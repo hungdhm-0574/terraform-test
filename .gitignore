@@ -1,2 +1,5 @@
 *.terraform/
+*terraform.tfstate
+*terraform.tfstate.backup
 *hungdhm-id-rsa.pub
+*terraform.tfvars
