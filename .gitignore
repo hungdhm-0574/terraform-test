@@ -1,2 +1,2 @@
 *.terraform/
-*.hungdhm-id-rsa.pub
+*hungdhm-id-rsa.pub
